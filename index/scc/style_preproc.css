@@ -7,10 +7,8 @@
   font-size: inherit; }
 
 header {
-  background-image: url("../images/Luis.png");
-  background-repeat: space;
-  background-size: cover;
-  height: 100%; }
+  background-image: url("../images/bg.png");
+  background-size: cover; }
   header .container {
     padding-top: 30px; }
     header .container nav {
@@ -33,40 +31,42 @@ header {
             height: 2px;
             background-color: #4d4d4d; }
 
-section.block_1 h1 {
+section.block h1 {
+  padding-top: 180px;
   font-size: 88px;
-  padding-top: 170px;
   color: #4d4d4d;
   font-family: 'Asap'; }
-section.block_1 p {
+section.block p {
   font-family: 'Asap';
   font-size: 22px;
   color: #4d4d4d;
   padding-bottom: 35px; }
-section.block_1 .more {
+section.block .more {
   text-decoration: none;
   text-transform: uppercase;
   background-color: #ffffff;
   color: #4d4d4d;
   padding: 20px;
   font-family: 'Asap';
-  padding-right: 20px; }
-section.block_1 .hire {
+  margin-right: 20px;
+  display: inline-block; }
+section.block .hire {
   text-decoration: none;
   text-transform: uppercase;
   color: #4d4d4d;
-  padding: 20px;
-  font-family: 'Asap';
-  border: 1px color(#4d4d4d); }
-section.block_1 img {
+  padding: 20px 30px;
+  border: 1px solid #4d4d4d;
+  display: inline-block;
+  font-family: 'Asap'; }
+section.block img {
   padding-top: 30px; }
 
 section.block_2 {
   background-color: #f6f6f6; }
   section.block_2 h2 {
-    padding-top: 180px;
     font-size: 46px;
-    color: #4d4d4d; }
+    color: #4d4d4d;
+    padding-top: 180px; }
     section.block_2 h2:before {
       content: "";
       display: block;
@@ -87,7 +87,8 @@ section.block_2 {
     border: 1px solid #4d4d4d;
     padding: 20px 50px;
     text-decoration: none;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    display: inline-block; }
   section.block_2 img {
     margin-top: 110px; }
 
