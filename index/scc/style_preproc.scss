@@ -46,7 +46,7 @@ header {
     }
   }
 }
-section {
+section.block_1 {
   background-color: $bg;
   h1 {
     font-size: 88px;
@@ -80,5 +80,40 @@ section {
 
   img {
     padding-top: 30px;
+  }
+}
+
+section.block_2 {
+  background-color: $bgsilver;
+
+  h2 {
+    padding-top: 180px;
+    font-size: 46px;
+    color: $text;
+    &:before {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: $text;
+      margin-bottom: 20px;
+      font-family: 'Asap';
+    }
+  }
+  p {
+    font-size: 16px;
+    color: $text;
+    font-family: 'Asap';
+    padding-bottom: 40px;
+  }
+  a.download {
+    font-size: 16px;
+    color: $text;
+    font-family: 'Asap';
+    border: 1px solid $text;
+    padding: 20px 50px;
+  }
+  img {
+    margin-top: 110px;
   }
 }

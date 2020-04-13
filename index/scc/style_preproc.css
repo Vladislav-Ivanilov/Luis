@@ -30,19 +30,19 @@ header {
             height: 2px;
             background-color: #4d4d4d; }
 
-section {
+section.block_1 {
   background-color: #e2e2e2; }
-  section h1 {
+  section.block_1 h1 {
     font-size: 88px;
     padding-top: 170px;
     color: #4d4d4d;
     font-family: 'Asap'; }
-  section p {
+  section.block_1 p {
     font-family: 'Asap';
     font-size: 22px;
     color: #4d4d4d;
     padding-bottom: 35px; }
-  section .more {
+  section.block_1 .more {
     text-decoration: none;
     text-transform: uppercase;
     background-color: #ffffff;
@@ -50,14 +50,42 @@ section {
     padding: 20px;
     font-family: 'Asap';
     padding-right: 20px; }
-  section .hire {
+  section.block_1 .hire {
     text-decoration: none;
     text-transform: uppercase;
     color: #4d4d4d;
     padding: 20px;
     font-family: 'Asap';
     border: 1px color(#4d4d4d); }
-  section img {
+  section.block_1 img {
     padding-top: 30px; }
+
+section.block_2 {
+  background-color: #f6f6f6; }
+  section.block_2 h2 {
+    padding-top: 180px;
+    font-size: 46px;
+    color: #4d4d4d; }
+    section.block_2 h2:before {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: #4d4d4d;
+      margin-bottom: 20px;
+      font-family: 'Asap'; }
+  section.block_2 p {
+    font-size: 16px;
+    color: #4d4d4d;
+    font-family: 'Asap';
+    padding-bottom: 40px; }
+  section.block_2 a.download {
+    font-size: 16px;
+    color: #4d4d4d;
+    font-family: 'Asap';
+    border: 1px solid #4d4d4d;
+    padding: 20px 50px; }
+  section.block_2 img {
+    margin-top: 110px; }
 
 /*# sourceMappingURL=style_preproc.css.map */
