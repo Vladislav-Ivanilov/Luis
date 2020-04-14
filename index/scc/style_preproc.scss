@@ -67,7 +67,6 @@ section.block {
     margin-right: 20px;
     display: inline-block;
     font-family: 'Asap';
-
     &:hover {
       content: "";
       display: block;
@@ -75,6 +74,7 @@ section.block {
     }
   }
 }
+
 section.block_2 {
   background-color: $bgwhite;
   .block_2_2 {
@@ -113,6 +113,7 @@ section.block_2 {
     }
   }
 }
+
 section.block_3 {
   background-color: $bgsilver;
   h3 {
@@ -132,4 +133,7 @@ section.block_3 {
 
     }
   }
+}
+footer {
+  background-image: url("../images/footer_fon.png");
 }
