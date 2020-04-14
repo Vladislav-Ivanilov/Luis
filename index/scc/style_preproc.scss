@@ -1,6 +1,8 @@
 @import "bootstrap.min.css";
 @import "bootstrap-theme.css";
 @import "../fonts/stylesheet.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
 
 * {
   margin: 0;
@@ -15,23 +17,31 @@ $text:#4d4d4d;
 header {
   background-image: url("../images/bg.png");
   background-size: cover;
+  .navbar-default {
+    box-shadow: none;
+  }
   .navbar {
     background: none;
     margin-bottom: 0;
     border: none;
+    border-radius:0 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .nav a {
+      font-size: 16px;
+      text-transform: uppercase;
+      color: $text;
+      &:hover:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: $text;
+        margin-top: 10px;
+      }
+    }
   }
-
 }
-
-
-
-
-//.hover:after{
-//  content: "";
-//  display: block;
-//  width: 100%;
-//  height: 2px;
-//  background-color: $text;
 section.block {
   h1 {
     padding-top: 180px;
@@ -45,66 +55,62 @@ section.block {
     color: $text;
     padding-bottom: 35px;
   }
-  .more {
+  a {
+    width: 160px;
+    height: 50px;
+    padding-top: 18px;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: #ffffff;
     color: $text;
-    padding: 20px;
-    font-family: 'Asap';
+    border: 1px solid $text;
     margin-right: 20px;
     display: inline-block;
-  }
-  .hire {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: $text;
-    padding: 20px 30px;
-    border: 1px solid $text;
-    display: inline-block;
     font-family: 'Asap';
-  }
 
-  img {
-    padding-top: 30px;
-  }
-}
-
-section.block_2 {
-  background-color: $bgwhite;
-
-  h2 {
-    font-size: 46px;
-    color: $text;
-    padding-top: 180px;
-    font-family: 'Asap';
-    &:before {
+    &:hover {
       content: "";
       display: block;
-      width: 60px;
-      height: 4px;
-      background-color: $text;
-      margin-bottom: 20px;
+      background-color: #ffffff;
     }
   }
-  p {
-    font-size: 16px;
-    color: $text;
-    font-family: 'Asap';
-    padding-bottom: 40px;
-  }
-  a.download {
-    font-size: 16px;
-    color: $text;
-    font-family: 'Asap';
-    border: 1px solid $text;
-    padding: 20px 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-  }
-  img {
-    margin-top: 110px;
+}
+section.block_2 {
+  background-color: $bgwhite;
+  .block_2_2 {
+    padding-top: 110px;
+    padding-bottom: 120px;
+    h2 {
+      margin-top: 95px;
+      font-size: 46px;
+      color: $text;
+      font-family: 'Asap';
+      &:before {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 4px;
+        background-color: $text;
+        margin-bottom: 20px;
+      }
+    }
+    p {
+      font-size: 16px;
+      color: $text;
+      font-family: 'Asap';
+    }
+    a.download {
+      font-size: 16px;
+      color: $text;
+      font-family: 'Asap';
+      border: 1px solid $text;
+      padding: 20px 50px;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-top: 40px;
+      margin-bottom: 50px;
+    }
   }
 }
 section.block_3 {
