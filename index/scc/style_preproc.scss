@@ -9,6 +9,7 @@
 }
 
 $bgsilver: #f6f6f6;
+$bgwhite:#ffffff;
 $text:#4d4d4d;
 
 header {
@@ -82,12 +83,13 @@ section.block {
 }
 
 section.block_2 {
-  background-color: $bgsilver;
+  background-color: $bgwhite;
 
   h2 {
     font-size: 46px;
     color: $text;
     padding-top: 180px;
+    font-family: 'Asap';
     &:before {
       content: "";
       display: block;
@@ -95,7 +97,6 @@ section.block_2 {
       height: 4px;
       background-color: $text;
       margin-bottom: 20px;
-      font-family: 'Asap';
     }
   }
   p {
@@ -116,5 +117,25 @@ section.block_2 {
   }
   img {
     margin-top: 110px;
+  }
+}
+section.block_3 {
+  background-color: $bgsilver;
+  h3 {
+    font-size: 46px;
+    color: $text;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Asap';
+    &:before {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: $text;
+      margin: auto;
+      margin-bottom: 20px;
+
+    }
   }
 }

@@ -62,19 +62,19 @@ section.block img {
   padding-top: 30px; }
 
 section.block_2 {
-  background-color: #f6f6f6; }
+  background-color: #ffffff; }
   section.block_2 h2 {
     font-size: 46px;
     color: #4d4d4d;
-    padding-top: 180px; }
+    padding-top: 180px;
+    font-family: 'Asap'; }
     section.block_2 h2:before {
       content: "";
       display: block;
       width: 60px;
       height: 4px;
       background-color: #4d4d4d;
-      margin-bottom: 20px;
-      font-family: 'Asap'; }
+      margin-bottom: 20px; }
   section.block_2 p {
     font-size: 16px;
     color: #4d4d4d;
@@ -91,5 +91,22 @@ section.block_2 {
     display: inline-block; }
   section.block_2 img {
     margin-top: 110px; }
+
+section.block_3 {
+  background-color: #f6f6f6; }
+  section.block_3 h3 {
+    font-size: 46px;
+    color: #4d4d4d;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Asap'; }
+    section.block_3 h3:before {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: #4d4d4d;
+      margin: auto;
+      margin-bottom: 20px; }
 
 /*# sourceMappingURL=style_preproc.css.map */
