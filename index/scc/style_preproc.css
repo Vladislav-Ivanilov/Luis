@@ -170,9 +170,9 @@ section.block_5 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Asap';
-    -webkit-box-shadow: 3px 3px 100px 7px rgba(0, 0, 0, 0.52);
-    -moz-box-shadow: 3px 3px 100px 7px rgba(0, 0, 0, 0.52);
-    box-shadow: 3px 3px 100px 7px rgba(0, 0, 0, 0.52); }
+    -webkit-box-shadow: 3px 3px 40px 8px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 3px 3px 40px 8px rgba(0, 0, 0, 0.52);
+    box-shadow: 3px 3px 40px 8px rgba(0, 0, 0, 0.52); }
 
 section.block_6 h3 {
   font-size: 46px;
@@ -189,6 +189,11 @@ section.block_6 h3 {
     background-color: #4d4d4d;
     margin: auto;
     margin-bottom: 20px; }
+
+section.block_6 .block_66 {
+  border: 1px solid #4d4d4d; }
+  section.block_6 .block_66 img {
+    width: 160px; }
 
 footer {
   background-image: url("../images/footer_fon.png"); }
