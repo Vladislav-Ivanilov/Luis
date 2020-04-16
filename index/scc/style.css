@@ -3,6 +3,7 @@
 @import url(../fonts/stylesheet.css);
 @import url(owl.carousel.css);
 @import url(owl.theme.default.css);
+@import url(../fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css);
 * {
   margin: 0;
   padding: 0;
@@ -225,5 +226,33 @@ section.block_7 {
 
 footer {
   background-image: url("../images/footer_fon.png"); }
+  footer h4 {
+    font-size: 46px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    font-family: 'Asap'; }
+    footer h4:before {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: #ffffff;
+      margin: auto;
+      margin-bottom: 20px; }
+  footer .message {
+    height: 205px;
+    resize: none; }
+  footer button {
+    background-color: #ffffff;
+    padding: 20px 0;
+    font-size: 16px;
+    color: #4d4d4d;
+    font-family: 'Asap'; }
+    footer button i {
+      transform: rotate(65deg);
+      margin-left: 5px;
+      color: #4d4d4d; }
 
 /*# sourceMappingURL=style.css.map */
