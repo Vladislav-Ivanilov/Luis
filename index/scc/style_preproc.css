@@ -62,26 +62,26 @@ section.block a {
 
 section.block_2 {
   background-color: #ffffff; }
-  section.block_2 .block_2_2 {
+  section.block_2 .row {
     padding-top: 110px;
     padding-bottom: 120px; }
-    section.block_2 .block_2_2 h2 {
+    section.block_2 .row h2 {
       margin-top: 95px;
       font-size: 46px;
       color: #4d4d4d;
       font-family: 'Asap'; }
-      section.block_2 .block_2_2 h2:before {
+      section.block_2 .row h2:before {
         content: "";
         display: block;
         width: 60px;
         height: 4px;
         background-color: #4d4d4d;
         margin-bottom: 20px; }
-    section.block_2 .block_2_2 p {
+    section.block_2 .row p {
       font-size: 16px;
       color: #4d4d4d;
       font-family: 'Asap'; }
-    section.block_2 .block_2_2 a.download {
+    section.block_2 .row a.download {
       font-size: 16px;
       color: #4d4d4d;
       font-family: 'Asap';
