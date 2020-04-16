@@ -298,9 +298,10 @@ footer {
     height: 205px;
     resize: none;
   }
-  button {
+  button.btn {
+    border: none;
+    border-radius: 0px;
     background-color: $bgwhite;
-    padding: 20px 0;
     font-size: 16px;
     color: $text;
     font-family: 'Asap';

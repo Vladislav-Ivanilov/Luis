@@ -244,13 +244,14 @@ footer {
   footer .message {
     height: 205px;
     resize: none; }
-  footer button {
+  footer button.btn {
+    border: none;
+    border-radius: 0px;
     background-color: #ffffff;
-    padding: 20px 0;
     font-size: 16px;
     color: #4d4d4d;
     font-family: 'Asap'; }
-    footer button i {
+    footer button.btn i {
       transform: rotate(65deg);
       margin-left: 5px;
       color: #4d4d4d; }
