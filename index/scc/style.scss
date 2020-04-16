@@ -239,10 +239,10 @@ section.block_6 {
     margin-bottom: 120px;
     img {
       margin-left: 120px;
-      width: 140px;
+      width: 160px;
     }
     div.col-md-6.col-md-offset-3 {
-      margin-left: 5%;
+      margin-left: 10%;
       h4 {
         font-size: 30px;
         color: #212121;
@@ -259,7 +259,19 @@ section.block_6 {
   }
 }
 section.block_7 {
-
+  background-color: $bgsilver;
+  font-family: 'Asap';
+  padding-top: 80px;
+  padding-bottom: 65px;
+  margin-bottom: 155px;
+  h4 {
+    font-size: 30px;
+    color: $text;
+  }
+  h5 {
+    font-size: 22px;
+    color: $text;
+  }
 }
 
 footer {

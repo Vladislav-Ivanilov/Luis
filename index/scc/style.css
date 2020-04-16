@@ -197,9 +197,9 @@ section.block_6 .block_66 {
   margin-bottom: 120px; }
   section.block_6 .block_66 img {
     margin-left: 120px;
-    width: 140px; }
+    width: 160px; }
   section.block_6 .block_66 div.col-md-6.col-md-offset-3 {
-    margin-left: 5%; }
+    margin-left: 10%; }
     section.block_6 .block_66 div.col-md-6.col-md-offset-3 h4 {
       font-size: 30px;
       color: #212121; }
@@ -209,6 +209,19 @@ section.block_6 .block_66 {
     section.block_6 .block_66 div.col-md-6.col-md-offset-3 p {
       font-size: 16px;
       color: #212121; }
+
+section.block_7 {
+  background-color: #f6f6f6;
+  font-family: 'Asap';
+  padding-top: 80px;
+  padding-bottom: 65px;
+  margin-bottom: 155px; }
+  section.block_7 h4 {
+    font-size: 30px;
+    color: #4d4d4d; }
+  section.block_7 h5 {
+    font-size: 22px;
+    color: #4d4d4d; }
 
 footer {
   background-image: url("../images/footer_fon.png"); }
