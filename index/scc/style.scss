@@ -305,10 +305,39 @@ footer {
     font-size: 16px;
     color: $text;
     font-family: 'Asap';
+    margin-bottom: 60px;
     i {
       transform:rotate(65deg);
       margin-left: 5px;
       color: $text;
+    }
+  }
+  .social {
+    padding-bottom: 35px;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: $bgwhite;
+      margin: auto;
+      margin-bottom: 35px;
+    }
+    i {
+      width: 28px;
+      font-size: 15px;
+      background-color: $bgwhite;
+      color: $text;
+      border: 1px solid $bgwhite;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      box-sizing: border-box;
+      margin-left: 8px;
+    }
+    p {
+      font-size: 16px;
+      color: $bgwhite;
+      font-family: 'Asap';
     }
   }
 }

@@ -250,10 +250,35 @@ footer {
     background-color: #ffffff;
     font-size: 16px;
     color: #4d4d4d;
-    font-family: 'Asap'; }
+    font-family: 'Asap';
+    margin-bottom: 60px; }
     footer button.btn i {
       transform: rotate(65deg);
       margin-left: 5px;
       color: #4d4d4d; }
+  footer .social {
+    padding-bottom: 35px; }
+    footer .social:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: #ffffff;
+      margin: auto;
+      margin-bottom: 35px; }
+    footer .social i {
+      width: 28px;
+      font-size: 15px;
+      background-color: #ffffff;
+      color: #4d4d4d;
+      border: 1px solid #ffffff;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      box-sizing: border-box;
+      margin-left: 8px; }
+    footer .social p {
+      font-size: 16px;
+      color: #ffffff;
+      font-family: 'Asap'; }
 
 /*# sourceMappingURL=style.css.map */
