@@ -9,13 +9,11 @@
   margin: 0;
   padding: 0;
   font-size: inherit;
-
 }
 
 $bgsilver: #f6f6f6;
 $text:#4d4d4d;
 $bgwhite:#ffffff;
-
 
 header {
   background-image: url("../images/bg.png");
@@ -48,6 +46,7 @@ header {
      }
   }
 }
+
 section.block {
   h1 {
     padding-top: 180px;
@@ -79,6 +78,7 @@ section.block {
     }
   }
 }
+
 section.block_2 {
   background-color: $bgwhite;
   .row {
@@ -117,6 +117,7 @@ section.block_2 {
     }
   }
 }
+
 section.block_3 {
   background-color: $bgsilver;
   h3 {
@@ -146,6 +147,7 @@ section.block_3 {
     }
   }
 }
+
 section.block_4{
   background-color: $bgwhite;
   h3 {
@@ -155,7 +157,6 @@ section.block_4{
     padding-top: 120px;
     padding-bottom: 70px;
     font-family: 'Asap';
-
     &:before {
       content: "";
       display: block;
@@ -170,6 +171,7 @@ section.block_4{
     margin-bottom: 125px;
   }
 }
+
 section.block_5 {
   background-color: $bgsilver;
   h3 {
@@ -179,7 +181,6 @@ section.block_5 {
     padding-top: 120px;
     padding-bottom: 70px;
     font-family: 'Asap';
-
     &:before {
       content: "";
       display: block;
@@ -210,9 +211,9 @@ section.block_5 {
     -webkit-box-shadow: 3px 3px 40px 8px rgba(0,0,0,0.52);
     -moz-box-shadow: 3px 3px 40px 8px rgba(0,0,0,0.52);
     box-shadow: 3px 3px 40px 8px rgba(0,0,0,0.52);
-
   }
 }
+
 section.block_6 {
   h3 {
     font-size: 46px;
@@ -221,7 +222,6 @@ section.block_6 {
     padding-top: 120px;
     padding-bottom: 70px;
     font-family: 'Asap';
-
     &:before {
       content: "";
       display: block;
@@ -259,6 +259,7 @@ section.block_6 {
     }
   }
 }
+
 section.block_7 {
   background-color: $bgsilver;
   font-family: 'Asap';
@@ -333,6 +334,11 @@ footer {
       padding-bottom: 5px;
       box-sizing: border-box;
       margin-left: 8px;
+      &:hover {
+        color: $bgwhite;
+        border: 1px solid #0084b4;
+        background-color: #0084b4;
+      }
     }
     p {
       font-size: 16px;
