@@ -47,7 +47,6 @@ header {
      }
   }
 }
-
 section.block {
   h1 {
     padding-top: 180px;
@@ -79,7 +78,6 @@ section.block {
     }
   }
 }
-
 section.block_2 {
   background-color: $bgwhite;
   .row {
@@ -118,7 +116,6 @@ section.block_2 {
     }
   }
 }
-
 section.block_3 {
   background-color: $bgsilver;
   h3 {
@@ -215,7 +212,6 @@ section.block_5 {
 
   }
 }
-
 section.block_6 {
   h3 {
     font-size: 46px;
@@ -240,6 +236,7 @@ section.block_6 {
     padding-top: 85px;
     padding-bottom: 105px;
     font-family: 'Asap';
+    margin-bottom: 120px;
     img {
       margin-left: 120px;
       width: 140px;
@@ -260,6 +257,9 @@ section.block_6 {
       }
     }
   }
+}
+section.block_7 {
+
 }
 
 footer {
