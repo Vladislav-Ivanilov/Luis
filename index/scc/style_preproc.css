@@ -193,7 +193,8 @@ section.block_6 h3 {
 section.block_6 .block_66 {
   border: 1px solid #4d4d4d; }
   section.block_6 .block_66 img {
-    width: 160px; }
+    width: 160px;
+    padding-left: 120px; }
 
 footer {
   background-image: url("../images/footer_fon.png"); }
